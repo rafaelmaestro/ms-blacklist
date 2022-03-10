@@ -1,0 +1,27 @@
+{
+  "name": "ms-autorizador",
+  "version": "1.0.0",
+  "description": "Projeto Pessoal",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc & node dist/index.js",
+    "test": "Não implementado"
+  },
+  "author": "Rafael Maestro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.21",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.13.0"
+  }
+}
